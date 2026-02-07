@@ -13,7 +13,7 @@ public class MainApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("app-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         scene.getStylesheets().add(MainApplication.class.getResource("appstyle.css").toExternalForm());
-        stage.setTitle("Hello!");
+        stage.setTitle("Jayden's Simple Sum Calculator!");
         stage.setScene(scene);
         stage.show();
     }
